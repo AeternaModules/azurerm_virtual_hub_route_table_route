@@ -17,7 +17,7 @@ EOT
     name              = string
     next_hop          = string
     route_table_id    = string
-    next_hop_type     = optional(string, "ResourceId")
+    next_hop_type     = optional(string) # Default: "ResourceId"
   }))
 }
 
